@@ -3,7 +3,7 @@ public class Java_Study_Basic {
 
 /**
  * Java基本学習のためのテストクラス
- * @author odatoru
+ * @author t-oda
  */
 
     /**
