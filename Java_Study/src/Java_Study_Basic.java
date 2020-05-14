@@ -12,6 +12,7 @@ public class Java_Study_Basic {
      */
     public static void main(String[] args) {
         // Hello Worldを出力
+    	// ブランチ切り替えテスト
         System.out.println("Hello World!");
     }
 }
