@@ -1,8 +1,12 @@
-
+package JavaStudy;
+/**
+ * Hello Worldを出力するためのクラス
+ * @author t-oda
+ */
 public class HelloWorld {
+
     /**
      * Hello Worldを出力するメソッド
-     * @param args the command line arguments
      */
 
 	public void helloWorld() {
