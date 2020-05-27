@@ -35,4 +35,48 @@ public class Capter01 {
 		System.out.println(typeOfDay);
 	}
 
+    /**
+     * int型の10進数、8進数、16進数、2進数を出力するメソッド
+     * @param valLiteralInt 数値
+     */
+	public void printLiteralInt(int valLiteralInt) {
+		System.out.println("val1:" + valLiteralInt);
+	}
+
+    /**
+     * 浮動小数リテラルを出力するメソッド
+     * @param valLiteralFloat 数値
+     */
+	public void printLiteralFloat(float valLiteralFloat) {
+		System.out.println("val2:" + valLiteralFloat);
+	}
+
+    /**
+     * long型の数値を出力するメソッド
+     * @param valLiteralLong 数値
+     */
+	public void printLiteralLong(long valLiteralLong) {
+		System.out.println("val3:" + valLiteralLong);
+	}
+
+	//列挙型enumクラスのサンプル
+	enum Card1 { SPADES , CLUBS , DIAMONDS , HEARTS }
+
+    /**
+     * enumクラスから抽出した値を判定するメソッド
+     * @param なし
+     */
+	public void Cards() {
+		Card1 card = Card1.SPADES;
+		switch(card) {
+		case SPADES:
+		case CLUBS:
+			 System.out.println("black");
+			 break;
+		case DIAMONDS:
+		case HEARTS:
+			System.out.println("red");
+			break;
+		}
+	}
 }
